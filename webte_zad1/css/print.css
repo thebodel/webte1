@@ -1,0 +1,81 @@
+@media print {
+  :root {
+    color-scheme: light;
+  }
+
+  @page {
+    size: A4 portrait;
+    margin: 12mm;
+  }
+
+  body {
+    background: #ffffff;
+    font-size: 10pt;
+    line-height: 1.35;
+  }
+
+  .site-header,
+  .site-footer,
+  .skip-link {
+    display: none !important;
+  }
+
+  .site-main {
+    padding: 0;
+  }
+
+  .profile-card,
+  .placeholder-card,
+  .cv-card {
+    border: 0;
+    box-shadow: none;
+    padding: 0;
+  }
+
+  .cv-layout {
+    grid-template-columns: 30% 70%;
+    margin-top: 1rem;
+  }
+
+  .cv-sidebar,
+  .cv-content {
+    padding: 10mm;
+  }
+
+  .cv-sidebar {
+    background: #f1f1f1 !important;
+  }
+
+  .cv-content {
+    background: #ffffff !important;
+  }
+
+  .cv-photo {
+    width: 100%;
+    max-width: 42mm;
+    margin-bottom: 6mm;
+  }
+
+  .cv-sidebar-section,
+  .cv-section + .cv-section {
+    margin-top: 6mm;
+  }
+
+  .cv-entry,
+  .skill-item__header {
+    grid-template-columns: 1fr;
+    display: block;
+  }
+
+  .skill-list {
+    gap: 4mm;
+  }
+
+  .skill-item {
+    padding-bottom: 3mm;
+  }
+
+  .site-main h1 {
+    max-width: none;
+  }
+}
