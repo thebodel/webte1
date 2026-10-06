@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kedy ma zastihnete | Bohdan Sukhina</title>
+  <meta name="description" content="Rozvrh Bohdana Sukhinu s aktuálnym predmetom, filtrami a prehľadom týždňa.">
+  <link rel="icon" type="image/png" href="../img/favicon.png">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Preskočiť na obsah</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="container">
+        <div class="brand">
+          <div class="brand__text">
+            <p class="brand__name">Bohdan Sukhina</p>
+          </div>
+        </div>
+        <nav class="site-nav" aria-label="Hlavná navigácia">
+          <ul class="nav-list">
+            <li><a class="nav-link" href="../index.html">Profil</a></li>
+            <li><a class="nav-link" href="cv.html">Životopis</a></li>
+            <li><a class="nav-link" href="workspace.html">Pracovné prostredie</a></li>
+            <li><a class="nav-link is-active" href="schedule.html" aria-current="page">Kedy ma zastihnete</a></li>
+            <li><a class="nav-link" href="map.html">Kde ma nájdete</a></li>
+          </ul>
+          <details class="mobile-nav">
+            <summary>Menu</summary>
+            <ul class="mobile-nav__list">
+              <li><a class="nav-link" href="../index.html">Profil</a></li>
+              <li><a class="nav-link" href="cv.html">Životopis</a></li>
+              <li><a class="nav-link" href="workspace.html">Pracovné prostredie</a></li>
+              <li><a class="nav-link is-active" href="schedule.html" aria-current="page">Kedy ma zastihnete</a></li>
+              <li><a class="nav-link" href="map.html">Kde ma nájdete</a></li>
+            </ul>
+          </details>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content" class="site-main">
+      <div class="container">
+        <article class="schedule-card">
+          <header class="section-header">
+            <p class="section-label">Rozvrh</p>
+            <h1 class="visually-hidden">Rozvrh</h1>
+          </header>
+
+          <section class="schedule-status" aria-labelledby="schedule-status-title">
+            <div class="schedule-status__header">
+              <h2 id="schedule-status-title">Aktuálny stav</h2>
+            </div>
+
+            <div class="schedule-status__summary">
+              <h3 data-schedule-current-title>Mimo vyučovania</h3>
+              <p data-schedule-current-meta>Rozvrh sa zobrazí podľa aktuálneho času v prehliadači.</p>
+            </div>
+          </section>
+
+          <section class="schedule-filters" aria-labelledby="schedule-filters-title">
+            <div class="schedule-filters__header">
+              <h2 id="schedule-filters-title">Filtre</h2>
+            </div>
+
+            <div class="schedule-filter-list" role="toolbar" aria-label="Filtrovanie rozvrhu podľa typu výučby">
+              <button class="schedule-filter is-active" type="button" data-schedule-filter="all" aria-pressed="true">Všetko</button>
+              <button class="schedule-filter" type="button" data-schedule-filter="lecture" aria-pressed="false">Prednášky</button>
+              <button class="schedule-filter" type="button" data-schedule-filter="seminar" aria-pressed="false">Cvičenia</button>
+            </div>
+          </section>
+
+          <section class="schedule-table-wrap" aria-labelledby="schedule-table-title">
+            <h2 id="schedule-table-title">Týždenný rozvrh</h2>
+
+            <div class="schedule-table-scroll">
+              <table class="schedule-table">
+                <caption class="visually-hidden">Rozvrh predmetov od pondelka do piatka</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">Deň</th>
+                    <th scope="col">8.00–8.50</th>
+                    <th scope="col">9.00–9.50</th>
+                    <th scope="col">10.00–10.50</th>
+                    <th scope="col">11.00–11.50</th>
+                    <th scope="col">12.00–12.50</th>
+                    <th scope="col">13.00–13.50</th>
+                    <th scope="col">14.00–14.50</th>
+                    <th scope="col">15.00–15.50</th>
+                    <th scope="col">16.00–16.50</th>
+                    <th scope="col">17.00–17.50</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr data-schedule-row="mon">
+                    <th scope="row">Pondelok</th>
+                    <td></td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--seminar" data-day="mon" data-start="09:00" data-end="10:50" data-title="Operačné systémy" data-meta="cpu-c · BA-FEI-FEI D">
+                        <h3>Operačné systémy</h3>
+                        <p>9.00–10.50 · cpu-c</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--seminar" data-day="mon" data-start="11:00" data-end="12:50" data-title="Webové technológie 1" data-meta="c137 · BA-FEI-FEI C">
+                        <h3>Webové technológie 1</h3>
+                        <p>11.00–12.50 · c137</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="mon" data-start="13:00" data-end="14:50" data-title="Klasické šifry" data-meta="c810 · BA-FEI-FEI C">
+                        <h3>Klasické šifry</h3>
+                        <p>13.00–14.50 · c810</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="mon" data-start="15:00" data-end="16:50" data-title="Lineárna algebra 2" data-meta="cd300 · BA-FEI-FEI C-D">
+                        <h3>Lineárna algebra 2</h3>
+                        <p>15.00–16.50 · cd300</p>
+                      </article>
+                    </td>
+                    <td></td>
+                  </tr>
+
+                  <tr data-schedule-row="tue">
+                    <th scope="row">Utorok</th>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="tue" data-start="08:00" data-end="09:50" data-title="Analýza a zložitosť algoritmov" data-meta="de300 · BA-FEI-FEI D-E">
+                        <h3>Analýza a zložitosť algoritmov</h3>
+                        <p>8.00–9.50 · de300</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--seminar" data-day="tue" data-start="10:00" data-end="11:50" data-title="Klasické šifry" data-meta="c430 · BA-FEI-FEI C">
+                        <h3>Klasické šifry</h3>
+                        <p>10.00–11.50 · c430</p>
+                      </article>
+                    </td>
+                    <td colspan="6" class="schedule-table__blank"></td>
+                  </tr>
+
+                  <tr data-schedule-row="wed">
+                    <th scope="row">Streda</th>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="wed" data-start="08:00" data-end="09:50" data-title="Operačné systémy" data-meta="cd300 · BA-FEI-FEI C-D">
+                        <h3>Operačné systémy</h3>
+                        <p>8.00–9.50 · cd300</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="wed" data-start="10:00" data-end="11:50" data-title="Analýza a zložitosť algoritmov" data-meta="bc150 · BA-FEI-FEI B-C">
+                        <h3>Analýza a zložitosť algoritmov</h3>
+                        <p>10.00–11.50 · bc150</p>
+                      </article>
+                    </td>
+                    <td>
+                      <article class="schedule-event schedule-event--seminar" data-day="wed" data-start="12:00" data-end="12:50" data-title="Telesná výchova" data-meta="plav · BA-FEI-FEI TV-PL">
+                        <h3>Telesná výchova</h3>
+                        <p>12.00–12.50 · plav</p>
+                      </article>
+                    </td>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--lecture" data-day="wed" data-start="13:00" data-end="14:50" data-title="Webové technológie 1" data-meta="cd150 · BA-FEI-FEI C-D">
+                        <h3>Webové technológie 1</h3>
+                        <p>13.00–14.50 · cd150</p>
+                      </article>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+
+                  <tr data-schedule-row="thu">
+                    <th scope="row">Štvrtok</th>
+                    <td colspan="10" class="schedule-table__blank"></td>
+                  </tr>
+
+                  <tr data-schedule-row="fri">
+                    <th scope="row">Piatok</th>
+                    <td colspan="2">
+                      <article class="schedule-event schedule-event--seminar" data-day="fri" data-start="08:00" data-end="09:50" data-title="Lineárna algebra 2" data-meta="ab35 · BA-FEI-FEI A-B">
+                        <h3>Lineárna algebra 2</h3>
+                        <p>8.00–9.50 · ab35</p>
+                      </article>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section class="semester-progress-block" aria-labelledby="semester-progress-title">
+            <div class="semester-progress-block__header">
+              <h2 id="semester-progress-title">Progress semestra</h2>
+              <p data-semester-progress-percent>Načítavam percento semestra…</p>
+            </div>
+
+            <div class="semester-progress-block__dates">
+              <p><strong>Začiatok výučby:</strong> <span data-semester-start>14.09.2026</span></p>
+              <p><strong>Začiatok skúškového obdobia:</strong> <span data-semester-end>14.12.2026</span></p>
+            </div>
+
+            <div class="semester-progress" aria-hidden="true">
+              <div class="semester-progress__bar" data-semester-progress-bar></div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <address>
+          <p><a href="mailto:bogdansuhina14@gmail.com">bogdansuhina14@gmail.com</a></p>
+          <p><a href="tel:+421952237886">+421 952 237 886</a></p>
+        </address>
+      </div>
+    </footer>
+
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+</html>
