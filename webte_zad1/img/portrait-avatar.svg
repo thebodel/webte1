@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="560" viewBox="0 0 480 560" role="img" aria-labelledby="avatar-title avatar-desc">
+  <title id="avatar-title">Stylizovany avatar pri notebooku</title>
+  <desc id="avatar-desc">Minimalisticka ilustracia osoby pri pracovnom stole s notebookom a jemnym pozadim.</desc>
+  <defs>
+    <linearGradient id="avatar-background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#edf3f8" />
+      <stop offset="1" stop-color="#f7f4ef" />
+    </linearGradient>
+    <linearGradient id="avatar-accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e3a5f" />
+      <stop offset="1" stop-color="#2d507c" />
+    </linearGradient>
+  </defs>
+  <rect width="480" height="560" rx="30" fill="url(#avatar-background)" />
+  <circle cx="342" cy="126" r="72" fill="#ffffff" opacity="0.75" />
+  <circle cx="386" cy="96" r="16" fill="#d96c3f" opacity="0.9" />
+  <rect x="70" y="382" width="340" height="26" rx="13" fill="#d7dee5" />
+  <rect x="144" y="326" width="196" height="66" rx="18" fill="#263f66" />
+  <rect x="164" y="344" width="156" height="38" rx="12" fill="#ffffff" opacity="0.9" />
+  <path d="M190 238c16-45 43-68 82-68 42 0 72 28 88 80l22 70H144l46-82Z" fill="url(#avatar-accent)" />
+  <circle cx="244" cy="144" r="62" fill="#f0c7a8" />
+  <path d="M183 144c0-37 28-68 70-68 31 0 60 17 70 50-30-9-59-11-88-6-18 4-35 12-52 24Z" fill="#203552" />
+  <circle cx="222" cy="144" r="6" fill="#203552" />
+  <circle cx="274" cy="144" r="6" fill="#203552" />
+  <path d="M223 180c10 10 31 10 41 0" fill="none" stroke="#203552" stroke-linecap="round" stroke-width="4" />
+  <path d="M126 320c19-23 45-35 80-35h75c32 0 58 11 77 35H126Z" fill="#d96c3f" opacity="0.9" />
+  <rect x="158" y="422" width="164" height="70" rx="24" fill="#ffffff" opacity="0.82" />
+  <text x="240" y="466" fill="#1e3a5f" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">BS</text>
+</svg>
