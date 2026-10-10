@@ -9,7 +9,7 @@ if (mapRoot) {
     const MAP_STORAGE_KEY = "bohdan-sukhina-map-places";
     const fixedPlaces = {
       school: { name: "STU FEI", coordinates: [48.1517, 17.0727] },
-      home: { name: "Domov (približná poloha)", coordinates: [48.1452, 17.1127] }
+      home: { name: "Domov ", coordinates: [48.1382, 17.1122] }
     };
     const mapElement = mapRoot.querySelector("#personal-map");
     const form = mapRoot.querySelector("[data-map-add-form]");
@@ -19,7 +19,7 @@ if (mapRoot) {
     const emptyState = mapRoot.querySelector("[data-map-empty-state]");
     const distanceBlock = mapRoot.querySelector("[data-map-distance]");
     const destinationSelect = mapRoot.querySelector("[data-map-destination]");
-    const map = L.map(mapElement).setView([48.1485, 17.091], 13);
+    const map = L.map(mapElement).setView([48.1382, 17.1122], 13);
     const fixedLayer = L.layerGroup().addTo(map);
     const customLayer = L.layerGroup().addTo(map);
     const routeLayer = L.layerGroup().addTo(map);
